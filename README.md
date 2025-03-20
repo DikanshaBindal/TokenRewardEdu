@@ -118,9 +118,14 @@ await challengeRewards.completeChallenge(userAddress, challengeId);
 
 ### For Users
 Users need to:
+
 1. Complete the specified challenge
 2. Have their completion validated by an authorized validator
 3. Receive tokens automatically in their wallet
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contract Address :
+0x70DffCbe8c08Fef9D09Dc2F0C5075445a13b167c
+![image](https://github.com/user-attachments/assets/db657c3f-3ee9-4f0e-9774-f6ff6f6f282e)
