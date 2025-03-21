@@ -1,0 +1,66 @@
+/* Funky, Gradient, and Animated Styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(45deg, #ff00ff, #00ffff, #ffcc00);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    animation: funkyBackground 5s infinite alternate;
+}
+
+/* Gradient Animation */
+@keyframes funkyBackground {
+    0% { background: linear-gradient(45deg, #ff00ff, #00ffff, #ffcc00); }
+    100% { background: linear-gradient(45deg, #ff6600, #0099ff, #ffccff); }
+}
+
+/* Funky Buttons */
+button {
+    background: linear-gradient(135deg, #ff1493, #ff4500);
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ff4500, #ff1493);
+    transform: scale(1.1);
+}
+
+/* Funky Wallet Display */
+#walletAddress {
+    font-size: 20px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Funky Text Effects */
+h1 {
+    font-size: 40px;
+    text-shadow: 3px 3px 5px #000;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Add a glowing effect */
+@keyframes glow {
+    0% { text-shadow: 0 0 10px #ff00ff, 0 0 20px #00ffff, 0 0 30px #ffcc00; }
+    100% { text-shadow: 0 0 20px #ff6600, 0 0 30px #0099ff, 0 0 40px #ffccff; }
+}
+
+.glow-text {
+    animation: glow 1s infinite alternate;
+}
